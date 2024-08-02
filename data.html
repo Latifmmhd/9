@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Penduduk Sipil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Data Penduduk Sipil</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Kembali</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>Data Kartu Keluarga</h2>
+      <table id="kkTable">
+        <thead>
+          <tr>
+            <th>Nama Kepala Keluarga</th>
+            <th>Alamat</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data akan diisi melalui JavaScript -->
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Data Akte Kelahiran</h2>
+      <table id="akteTable">
+        <thead>
+          <tr>
+            <th>Nama Anak</th>
+            <th>Tanggal Lahir</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data akan diisi melalui JavaScript -->
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Data BPJS</h2>
+      <table id="bpjsTable">
+        <thead>
+          <tr>
+            <th>Nama</th>
+            <th>Nomor BPJS</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data akan diisi melalui JavaScript -->
+        </tbody>
+      </table>
+    </section>
+
+    <div id="editPopup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <h2>Edit Data</h2>
+        <form id="editForm">
+          <label for="editName">Nama:</label>
+          <input type="text" id="editName" required />
+          <label for="editField2">Field 2:</label>
+          <input type="text" id="editField2" required />
+          <button type="submit">Update</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="editModalLabel">Edit Data</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="editForm">
+              <div class="mb-3">
+                <label for="editName" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="editName" required />
+              </div>
+              <div class="mb-3">
+                <label for="editAddress" class="form-label">Alamat / Tanggal Lahir / Nomor BPJS</label>
+                <input type="text" class="form-control" id="editAddress" required />
+              </div>
+              <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

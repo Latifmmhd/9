@@ -1,0 +1,256 @@
+/* Tambahan CSS untuk Popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 90%;
+}
+
+.popup .close {
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Style table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+td button.edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+td button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Tambahan CSS untuk Popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 90%;
+}
+
+.popup .close {
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Style table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+section {
+  padding: 1em;
+  background-color: white;
+  margin: 1em 0;
+}
+
+form label {
+  display: block;
+  margin: 0.5em 0 0.2em 0;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 0.7em 1.5em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+#kkResult,
+#akteResult,
+#bpjsResult {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #e7f3e7;
+  border: 1px solid #4caf50;
+}
+
+td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+td button.edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+td button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Tambahan CSS untuk Popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 90%;
+}
+
+.popup .close {
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Style table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+td button.edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+td button.delete {
+  background-color: #f44336;
+  color: white;
+}
